@@ -1,0 +1,324 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+nav {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 0% !important;
+  z-index: 1000 !important;
+  font-family: 'Pridi', serif;
+  font-size: 18px;
+}
+
+.nav-link:hover {
+  color: #daa520 !important;
+}
+
+.modal {
+  z-index: 10000 !important;
+}
+
+/*banner-start*/
+.banner {
+  width: 100% !important;
+  height: 95vh !important;
+  font-family: 'Frank Ruhl Libre', serif;
+}
+
+.banner img {
+  width: 100% !important;
+  height: 95vh !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.banner .carousel-item button {
+  margin-bottom: 250px;
+}
+
+.banner h1 {
+  color: #F2E5E5;
+  letter-spacing: 5px;
+}
+
+.banner p {
+  color: #F2E5E5;
+}
+
+/*third-part*/
+.third {
+  background-color: #000;
+  color: goldenrod;
+  padding: 30px 0px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Pridi', serif;
+}
+
+.third .fa {
+  font-size: 35px;
+}
+
+/*fourth-part*/
+.fourth {
+  width: 100%;
+  background-color: #000;
+  color: rgba(255, 255, 255, 0.623);
+}
+
+.fourth img {
+  max-width: 100%;
+}
+
+.fourth hr {
+  width: 200px;
+  color: #daa520;
+  margin-top: 30px;
+}
+
+.fourth h2 {
+  padding-top: 95px;
+  font-family: 'Pridi', serif;
+}
+
+.fourth h4 {
+  margin-top: 45px;
+  margin-bottom: 30px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.fourth p {
+  margin-bottom: 40px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.fourth button {
+  color: #000;
+  font-family: 'Nunito', sans-serif;
+}
+
+/*five-part*/
+.five_part {
+  width: 100%;
+  padding: 10px 10px 0px 10px;
+  background-color: #000;
+  color: rgba(255, 255, 255, 0.623);
+}
+
+.five_part img {
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.five_part h3 {
+  padding-top: 100px;
+  color: #daa520;
+}
+
+.five_part p {
+  margin-top: 50px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.five_part hr {
+  width: 150px;
+}
+
+.five_part button {
+  margin-top: 20px;
+  font-family: 'Nunito', sans-serif;
+  color: gray;
+}
+
+/*part-six*/
+.part_six {
+  width: 100%;
+  background-color: gainsboro;
+  padding: 10px 10px 0px 10px;
+  color: #000;
+}
+
+.part_six img {
+  height: 90vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.part_six h3 {
+  padding-top: 100px;
+}
+
+.part_six p {
+  margin-top: 50px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.part_six hr {
+  width: 150px;
+}
+
+.part_six button {
+  margin-top: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+
+/*part-seven*/
+.part_seven {
+  width: 100%;
+  padding: 50px 0px;
+}
+
+.part_seven h2 {
+  font-family: 'Nunito', sans-serif;
+}
+
+.part_seven img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.part_seven p {
+  line-height: 28px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.part_seven button {
+  font-family: 'Frank Ruhl Libre', serif;
+}
+
+/*part-eight*/
+.temper {
+  width: 100%;
+  text-align: center;
+  font-size: 22px;
+  padding: 70px 0px;
+  background-image: url("C:/Users/hp/Desktop/rewa-Jewellers/img/pexels-say-straight-2735981.jpg");
+  background-attachment: fixed;
+  color: #fff;
+  font-family: 'Pridi', serif;
+}
+
+.temper p {
+  letter-spacing: 3px;
+  word-spacing: 5px;
+}
+
+.temper button {
+  font-family: 'Nunito', sans-serif;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  background-color: #000000;
+  color: #fff;
+  padding: 30px 0px;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing: 2px;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer .z {
+  padding-left: 10px;
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+}
+
+footer .fa {
+  font-size: 23px;
+}
+
+/*animation*/
+@-webkit-keyframes slide-left {
+  from {
+    -webkit-transform: translateX(600px);
+            transform: translateX(600px);
+  }
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+@keyframes slide-left {
+  from {
+    -webkit-transform: translateX(600px);
+            transform: translateX(600px);
+  }
+  to {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+.all {
+  -webkit-animation: slide-left 2s ease-in;
+          animation: slide-left 2s ease-in;
+}
+
+/*media-query*/
+@media (max-width: 768px) {
+  .part_six h3 {
+    padding-top: 5px;
+  }
+  .part_six img {
+    width: 100%;
+  }
+  .banner .hide {
+    display: none;
+  }
+  .fourth h2 {
+    padding-top: 0px;
+  }
+  .third {
+    padding-bottom: 0px;
+  }
+  .third .col {
+    margin-top: 20px;
+  }
+  .part_six button {
+    margin-bottom: 20px;
+  }
+  .part_seven {
+    padding-top: 30px;
+    padding-bottom: 5px;
+  }
+  .part_seven button {
+    margin-bottom: 20px;
+  }
+  .five_part h3 {
+    padding-top: 5px;
+  }
+  .five_part img {
+    width: 100%;
+  }
+  .five_part button {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .fourth button {
+    margin-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
